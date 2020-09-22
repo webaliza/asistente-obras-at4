@@ -1,58 +1,14 @@
-<<<<<<< HEAD
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.amplya.ay_app_obras" version="1.1.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="es.at4.partes" version="2.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
     <name>AOR Partes de horas</name>
     <description />
-    <author email="ximo.espinosa@gmail.com" href="http://amplya.es">Amplya</author>
+    <author email="jcarlos.escriba.martinez@gmail.com" href="http://at4grupo.es">AT4</author>
     <content src="index.html" />
     <access origin="*" />
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
- Licensed to the Apache Software Foundation (ASF) under one
- or more contributor license agreements.  See the NOTICE file
- distributed with this work for additional information
- regarding copyright ownership.  The ASF licenses this file
- to you under the Apache License, Version 2.0 (the
- "License"); you may not use this file except in compliance
- with the License.  You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing,
- software distributed under the License is distributed on an
- "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- KIND, either express or implied.  See the License for the
- specific language governing permissions and limitations
- under the License.
--->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.cordova.helloCordova"
-        version   = "2.0.0">
-    <name>Hello Cordova</name>
-
-    <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-
-    <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
-    </author>
-
-    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
-    <content src="index.html" />
-
-    <!-- Whitelist docs: https://github.com/apache/cordova-plugin-whitelist -->
-    <access origin="*" />
-    <!-- Grant certain URLs the ability to launch external applications. This
-         behaviour is set to match that of Cordova versions before 3.6.0, and
-         should be reviewed before launching an application in production. It
-         may be changed in the future. -->
->>>>>>> master
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -60,24 +16,29 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-<<<<<<< HEAD
     <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
     <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
     <icon density="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+    <splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" />
+    <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi-screen.png" />
+    <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi-screen.png" />
+    <splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi-screen.png" />
+    <splash density="land-xxhdpi" src="res/screen/android/drawable-land-xxhdpi-screen.png" />
+    <splash density="land-xxxhdpi" src="res/screen/android/drawable-land-xxxhdpi-screen.png" />
+    <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="res/screen/android/drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#C65511" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="android-minSdkVersion" value="16" />
     <preference name="android-targetSdkVersion" value="26" />
-=======
-
-    <preference name="loglevel" value="DEBUG" />
-    <!--
-      <preference name="splashscreen" value="splash" />
-      <preference name="backgroundColor" value="0xFFF" />
-      <preference name="loadUrlTimeoutValue" value="20000" />
-      <preference name="InAppBrowserStorageEnabled" value="true" />
-      <preference name="disallowOverscroll" value="true" />
-    -->
->>>>>>> master
 </widget>

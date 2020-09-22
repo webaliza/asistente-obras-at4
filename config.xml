@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.amplya.ay_app_obras" version="2.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="es.at4.partes" version="2.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AOR Partes de horas</name>
     <description />
-    <author email="ximo.espinosa@gmail.com" href="http://amplya.es">Amplya</author>
+    <author email="jcarlos.escriba.martinez@gmail.com" href="http://at4grupo.es">AT4</author>
     <content src="index.html" />
     <access origin="*" />
 

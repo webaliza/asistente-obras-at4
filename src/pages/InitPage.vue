@@ -21,13 +21,13 @@ export default {
   name: "InitPage",
   mounted() {
     if (localStorage.aor_ipgsbase === undefined)
-      localStorage.aor_ipgsbase = "amplya.selfip.com";
+      localStorage.aor_ipgsbase = "grupoat4.dyndns.org";
     if (localStorage.aor_gestgsbase === undefined)
-      localStorage.aor_gestgsbase = "amplya";
+      localStorage.aor_gestgsbase = "at4";
     if (localStorage.aor_aplgsbase === undefined)
-      localStorage.aor_aplgsbase = "ay_obras";
+      localStorage.aor_aplgsbase = "ay_at4";
     if (localStorage.aor_ejagsbase === undefined)
-      localStorage.aor_ejagsbase = "dmo";
+      localStorage.aor_ejagsbase = "eja";
     if (localStorage.aor_puertogsbase === undefined)
       localStorage.aor_puertogsbase = "8121";
 
