@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.at4.partes" version="2.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AOR Partes de horas</name>
-    <description />
+<widget id="es.at4.partes" version="3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AT4 Partes de horas</name>
     <author email="jcarlos.escriba.martinez@gmail.com" href="http://at4grupo.es">AT4</author>
     <content src="index.html" />
     <access origin="*" />
@@ -70,10 +69,10 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="Fullscreen" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#C65511" />
+    <preference name="StatusBarBackgroundColor" value="" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="phonegap-version" value="cli-8.0.0" />
-    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
 
     <engine name="android" spec="^7.0.0" />

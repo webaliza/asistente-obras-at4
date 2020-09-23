@@ -50,7 +50,8 @@ export default {
 }
 
 .logo img {
-  width: 100%;
+  width: 70%;
+  text-align: center;
 }
 
 .toolbar p {

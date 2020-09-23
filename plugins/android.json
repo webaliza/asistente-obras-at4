@@ -7,8 +7,11 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "es.at4.partes"
+    },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "es.amplya.ay_app_obras"
+      "PACKAGE_NAME": "es.at4.partes"
     }
   },
   "dependent_plugins": {}
