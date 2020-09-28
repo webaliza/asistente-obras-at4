@@ -73,9 +73,9 @@
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="29" />
 
-    <engine name="android" spec="^7.0.0" />
+    <engine name="android" spec="^10.0.0" />
     <engine name="ios" spec="^4.5.4" />
 
     <plugin name="cordova-plugin-statusbar" />
