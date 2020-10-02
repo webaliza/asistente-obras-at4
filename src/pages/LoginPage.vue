@@ -52,7 +52,7 @@
 
     <!-- Version -->
     <div class="version">
-      <small>v.3.0.0</small>
+      <small>v.3.0.1</small>
     </div>
   </f7-page>
 </template>

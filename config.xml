@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="es.at4.partes" version="3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="es.at4.partes" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AT4 Partes de horas</name>
     <author email="jcarlos.escriba.martinez@gmail.com" href="http://at4grupo.es">AT4</author>
     <content src="index.html" />
@@ -37,6 +37,7 @@
         <allow-intent href="itms-apps:*" />
         <preference name="BackupWebStorage" value="none" />
         <preference name="Orientation" value="all" />
+        <preference name="WKWebViewOnly" value="true" />
         <icon height="1024" src="res/icon/ios/icon-1024.png" width="1024" />
         <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
         <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
@@ -80,4 +81,5 @@
 
     <plugin name="cordova-plugin-statusbar" />
     <plugin name="cordova-plugin-whitelist" />
+    <plugin name="cordova-plugin-wkwebview-engine" />
 </widget>
